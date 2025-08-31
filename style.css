@@ -549,3 +549,224 @@ body{
         height: 7rem;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Base responsive adjustments */
+@media (max-width: 900px) {
+    .wrapper {
+        width: 95vw;
+        height: 90vh;
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    .book {
+        flex-direction: column;
+        perspective: none;
+    }
+
+    .book .book-page,
+    .cover {
+        width: 100% !important;
+        height: 50%;
+        padding: 1rem;
+        position: relative;
+        box-shadow: none;
+        transform: none !important;
+    }
+
+    .profile-page img {
+        max-width: 120px;
+    }
+
+    .profile-page h1 {
+        font-size: 2rem;
+    }
+
+    .profile-page h3 {
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        width: 7.5rem;
+        height: 2.5rem;
+        font-size: 0.95rem;
+    }
+
+    .services-box,
+    .skills-box {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .skills-content .content span {
+        width: 5rem;
+        height: 4rem;
+        font-size: 1.1rem;
+    }
+
+    .portfolio-box .img-box {
+        height: 10rem;
+    }
+
+    .contact-box textarea {
+        height: 10rem;
+    }
+
+    .nextprev-btn {
+        font-size: 1.8rem;
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+        width: 100vw;
+        height: 100vh;
+        padding: 0.5rem;
+    }
+
+    .book .book-page,
+    .cover {
+        padding: 0.5rem;
+    }
+
+    .profile-page img {
+        max-width: 80px;
+    }
+
+    .profile-page h1 {
+        font-size: 1.5rem;
+    }
+
+    .profile-page h3 {
+        font-size: 1rem;
+    }
+
+    .btn {
+        width: 6rem;
+        height: 2rem;
+        font-size: 0.85rem;
+    }
+
+    .services-box,
+    .skills-box {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .skills-content .content span {
+        width: 4rem;
+        height: 3.5rem;
+        font-size: 0.85rem;
+    }
+
+    .portfolio-box .img-box {
+        height: 8rem;
+    }
+
+    .portfolio-box .info-box h3 {
+        font-size: 1rem;
+    }
+
+    .contact-box textarea {
+        height: 7rem;
+    }
+
+    .back-profile {
+        width: 1.5rem;
+        height: 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .nextprev-btn {
+        font-size: 1.5rem;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+
+/* Optional: smaller phones (<400px) */
+@media (max-width: 400px) {
+    .wrapper {
+        padding: 0.2rem;
+    }
+
+    .book .book-page,
+    .cover {
+        padding: 0.2rem;
+    }
+
+    .profile-page img {
+        max-width: 60px;
+    }
+
+    .profile-page h1 {
+        font-size: 1.2rem;
+    }
+
+    .profile-page h3 {
+        font-size: 0.8rem;
+    }
+
+    .btn {
+        width: 5rem;
+        height: 1.8rem;
+        font-size: 0.75rem;
+    }
+
+    .services-box,
+    .skills-box {
+        gap: 0.3rem;
+    }
+
+    .skills-content .content span {
+        width: 3rem;
+        height: 3rem;
+        font-size: 0.75rem;
+    }
+
+    .portfolio-box .img-box {
+        height: 6rem;
+    }
+
+    .portfolio-box .info-box h3 {
+        font-size: 0.8rem;
+    }
+
+    .contact-box textarea {
+        height: 5rem;
+    }
+
+    .back-profile {
+        width: 1.2rem;
+        height: 1.2rem;
+        font-size: 0.8rem;
+    }
+
+    .nextprev-btn {
+        font-size: 1.2rem;
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+}
